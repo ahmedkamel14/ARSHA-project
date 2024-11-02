@@ -477,8 +477,52 @@ body {
     z-index: 9;
 }
 
+.portfolio .portfolio-first  .overimage{
+    width: 100%;
+    height: 100%;
+    /* background-color: #FEFEFE; */
+    background-color: rgba(0, 0, 0, 0.638);
+    /* position: absolute; */
+    /* bottom: -87px; */
+    transform: scale(0);
+    transition: all .2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.portfolio-item{
+    position: relative;
+}
 
-.portfolio-first .grid1 .Image4{
+.portfolio .portfolio-first  .overimage h5{
+    font-size: 25px;
+    display: block;
+}
+.portfolio .portfolio-first  .overimage p{
+    font-size: 15px;
+    margin: 40px 0px;
+}
+.portfolio .portfolio-first  .overimage .icons{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+    width: 30%;
+}
+.portfolio .portfolio-first .portfolio-item:hover .overimage{
+    transform: scale(1);
+}
+
+.portfolio .portfolio-first .portfolio-item:hover .overimage{
+    transform: scale(1);
+}
+
+
+/* .portfolio-first .grid1 .Image4{
     position: relative;
     top: 10px;
 }
@@ -602,7 +646,49 @@ body {
         position: relative;
         top: 32px;
     }
-}
+} */
+
+/* <div class="row" style="flex-direction: column;">
+                  <div class="col-lg-4 col-md-6 col-sm-12 grid1  " style="height: 900px;">
+                    <div class=" portfolio-item Image1 ">
+                      <img src="images/masonry-portfolio/masonry-portfolio-1.jpg" alt="Image 1" class="img-fluid ">
+                    </div>
+                    <div class=" portfolio-item Image6">
+                      <img src="images/masonry-portfolio/masonry-portfolio-6.jpg" alt="Image 6" class="img-fluid ">
+                    </div>
+                  </div>
+  
+                  <div class="col-lg-4 col-md-6 col-sm-1 grid2  ">
+                    <div class=" portfolio-item Image1 ">
+                      <img src="images/masonry-portfolio/masonry-portfolio-2.jpg" alt="Image 1" class="img-fluid ">
+                    </div>
+                    <div class=" portfolio-item Image6">
+                      <img src="images/masonry-portfolio/masonry-portfolio-3.jpg" alt="Image 6" class="img-fluid ">
+                    </div>
+                    <div class=" portfolio-item Image9">
+                      <img src="images/masonry-portfolio/masonry-portfolio-9.jpg" alt="Image 9" class="img-fluid ">
+                    </div>
+                    <div class=" portfolio-item Image8">
+                      <img src="images/masonry-portfolio/masonry-portfolio-8.jpg" alt="Image 8" class="img-fluid ">
+                    </div>
+                  </div>
+                  <div class=" grid3  ">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item Image4">
+                      <img src="images/masonry-portfolio/masonry-portfolio-4.jpg" alt="Image 4" class="img-fluid ">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item Image5">
+                      <img src="images/masonry-portfolio/masonry-portfolio-5.jpg" alt="Image 5" class="img-fluid ">
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item Image7">
+                      <img src="images/masonry-portfolio/masonry-portfolio-7.jpg" alt="Image 7" class="img-fluid ">
+                    </div>
+                  </div>
+
+                </div> */
+
+
+
 
 
 
